@@ -23,7 +23,7 @@ const getSum = () => {
     newCell.setAttribute("colspan", "2");
     newCell.style.textAlign = "center";
     newCell.textContent = `Total Price: Rs ${total}`;
-    
+    newCell.id='ans';
     newRow.appendChild(newCell);
     table.appendChild(newRow);
 };
